@@ -1,6 +1,7 @@
 html,
 body {
   box-sizing: border-box;
+  font-size: 36px;
   color: white;
   height: 100%;
   margin: 0;
@@ -9,7 +10,7 @@ body {
 
 a {
   color: white;
-  margin: 1em;
+  margin: 14px;
 }
 
 a:hover {
@@ -17,7 +18,7 @@ a:hover {
 }
 
 nav {
-  margin: 1.5em;
+  margin: 14px;
 }
 
 .false-icon {
@@ -25,21 +26,27 @@ nav {
   color: black;
 }
 
+#container {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
 #contacts {
   width: 100%;
   text-align: center;
-  font-size: 2em;
   display: inline-block;
   float: none;
 }
 
 #logo {
   max-height: 500px;
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 25%;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 25%;
   margin: auto;
   animation: float 6s ease-in-out infinite;
 }
